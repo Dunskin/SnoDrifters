@@ -169,6 +169,9 @@
     <Content Include="fonts\fonts-awesome\scss\_rotated-flipped.scss" />
     <Content Include="fonts\fonts-awesome\scss\_stacked.scss" />
     <Content Include="fonts\fonts-awesome\scss\_variables.scss" />
+    <Content Include="Documents\Club ByLaws.pdf" />
+    <Content Include="Documents\Sno-Drifters Application Form.pdf" />
+    <Content Include="Documents\Standard Operating Procedures.pdf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -216,7 +219,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>51342</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
