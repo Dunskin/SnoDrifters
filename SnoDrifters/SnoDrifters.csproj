@@ -118,6 +118,7 @@
     <Content Include="obj1\Debug\SnoDrifters.dll" />
     <Content Include="obj1\Debug\SnoDrifters.pdb" />
     <Content Include="packages.config" />
+    <Content Include="SponsorsTest.aspx" />
     <Content Include="Youtube.aspx" />
     <Content Include="fonts\font-awesome\fonts\fontawesome-webfont.eot" />
     <Content Include="fonts\font-awesome\fonts\fontawesome-webfont.ttf" />
@@ -206,7 +207,6 @@
   <ItemGroup>
     <Compile Include="classes\Album.cs" />
     <Compile Include="classes\Contact.cs" />
-    <Compile Include="classes\ContentManager.cs" />
     <Compile Include="classes\Events.cs" />
     <Compile Include="classes\Gallery.cs" />
     <Compile Include="classes\Media.cs" />
@@ -228,6 +228,13 @@
     </Compile>
     <Compile Include="SnoDrifters.aspx.designer.cs">
       <DependentUpon>SnoDrifters.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SponsorsTest.aspx.cs">
+      <DependentUpon>SponsorsTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SponsorsTest.aspx.designer.cs">
+      <DependentUpon>SponsorsTest.aspx</DependentUpon>
     </Compile>
     <Compile Include="Youtube.aspx.cs">
       <DependentUpon>Youtube.aspx</DependentUpon>
