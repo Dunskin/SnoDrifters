@@ -201,34 +201,32 @@
                         <br>
                         <ul class="list-inline why-me">
                             <li>
-                                <h4>Standard Operating Procedures</h4>
                                 <h4> Mission Statement</h4>
                                 <p>The Moose Jaw Sno-Drifters Snowmobile Club Inc. is an organization made up of citizens from Moose Jaw and the surrounding area.
 
 We as a club promote safe, responsible snowmobiling by attending and hosting various community events. Our main goal is to raise funds to establish a groomed trail system.
 
-A groomed trail system will provide a safe place to ride without any risk of damage to private and public property.</p>
+A groomed trail system will provide a safe place to ride without any risk of damage to private and public property.
+                                    <a href="Documents/Standard Operating Procedures.pdf" target ="_blank">Standard Operating Procedures</a>
+                                    <a href="Documents/Club ByLaws.pdf" target ="_blank"> Club By-Laws</a>
+                                </p>
                             </li>
                             <li>
                                 <h4>Membership Types and Fees</h4>
-                                <p>The membership fees of the Sno-Drifters will be set at the AGM.
-•	Membership year will begin December 1st and expire on November 30th of each year.
-•	Family Membership (2 votes, currently $30)
-•	Single Membership (1 vote, currently $20)</p>
-                            </li>
-                            <li>
-                                <h4>Eligibility for Membership</h4>
-                                <p>Any individual who is capable and who has attained the
-            <p>age of 16 and who is ordinarily a resident of 
-            <p>Moose Jaw & District, may apply for regular membership.</p>
-                            </li>
-                            <li>
-                                <h4>Application Form To Join MJ Sno-Drifters </h4>
-                                <a href="Documents/Sno-Drifters Application Form.pdf" target ="_blank"> Sno-Drifters Application</a>
-
-                            </li>
-                        </ul>
-                        <a href="#tf-contact" class="btn btn-primary my-btn dark">More Info</a>
+                                <p>The membership fees of the Sno-Drifters will be set at the AGM.<br />
+            •	Membership year will begin December 1st and expire on November 30th of each year.<br />    
+                Eligibility for Membership - Any individual who is capable and who has attained the
+            age of 16 and who is ordinarily a resident of 
+            Moose Jaw & District, may apply for regular membership.
+            •	Family Membership (2 votes, currently $30)<br />
+            •	Single Membership (1 vote, currently $20)</p>
+           </li>
+           <li>
+           <h4>Application Form To Join MJ Sno-Drifters </h4>
+           <a href="Documents/Sno-Drifters Application Form.pdf" target ="_blank"> Sno-Drifters Application</a>
+           </li>
+            </ul>
+                       
                     </div>
                 </div>
             </div>
@@ -238,7 +236,21 @@ A groomed trail system will provide a safe place to ride without any risk of dam
         <div class="container">
             <div class="section-title">
                 <h3>Contact Us</h3>
-                <p>Cras sit amet nibh libero, in gravida nulla. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+                
+                    <!--<ul class="social-media list-inline"><!-->
+                        <a href="https://www.facebook.com/MooseJawSnoDrifters"><span class="fa fa-facebook"></span></a>
+                        <a href="https://twitter.com/mjsnow15"><span class="fa fa-twitter"></span></a>
+                        <a href="#"><span class="fa fa-youtube"></span></a>
+                   
+                 <h4>Mail Us!</h4>
+                <p>Box 157-325 4th Ave. S.W.<br>
+                  Moose Jaw, Saskatchewan, Canada<br />
+                  S6H 5A2 <br />
+                    <br />
+                  Mjsnowmobileclub@gmail.com
+
+
+                </p>
                 <hr>
             </div>
             <div class="space"></div>
@@ -264,14 +276,15 @@ A groomed trail system will provide a safe place to ride without any risk of dam
         </div>
     </div>
     <nav id="tf-footer">
-        <div class="container">            
-            <div class="pull-right">
+        <div class="container">     
+              <div class="pull-right">
                 <ul class="social-media list-inline">
                     <li><a href="#"><span class="fa fa-facebook"></span></a></li>
                     <li><a href="#"><span class="fa fa-twitter"></span></a></li>
                     <li><a href="#"><span class="fa fa-youtube"></span></a></li>                                      
                 </ul>
-            </div>
+            </div>       
+            
         </div>
     </nav>
 
