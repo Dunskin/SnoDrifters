@@ -176,10 +176,17 @@
                     <div class="col-md-6 col-md-offset-6">
                         <h3>Sponsors</h3>
                         <br>
-                        <p>Cras sit amet nibh libero, in gravida nulla. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                        <p>Metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                        <!--<br>
-                        <a href="#tf-why-me" class="btn btn-primary my-btn dark">Why Hire Me</a>-->
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="img/09.jpg" class="img-responsive"/>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="img/02.jpg" class="img-responsive"/>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="img/03.jpg" class="img-responsive"/>
+                            </div>                        
+                        </div>
                     </div>
                 </div>
             </div>
