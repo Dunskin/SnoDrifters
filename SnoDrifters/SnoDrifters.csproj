@@ -85,6 +85,7 @@
     <Content Include="css\loginform.css" />
     <Content Include="css\responsive.css" />
     <Content Include="css\style.css" />
+    <Content Include="EventEditor.aspx" />
     <Content Include="fonts\font-awesome\css\font-awesome.css" />
     <Content Include="fonts\font-awesome\css\font-awesome.min.css" />
     <Content Include="fonts\font-awesome\fonts\fontawesome-webfont.svg" />
@@ -115,9 +116,6 @@
     <Content Include="js\main.js" />
     <Content Include="js\modernizr.custom.js" />
     <Content Include="js\SmoothScroll.js" />
-    <Content Include="obj1\Debug\SnoDrifters.csproj.FileListAbsolute.txt" />
-    <Content Include="obj1\Debug\SnoDrifters.dll" />
-    <Content Include="obj1\Debug\SnoDrifters.pdb" />
     <Content Include="ownerlog.aspx" />
     <Content Include="ownerlogin.aspx" />
     <Content Include="OwnerPage.aspx" />
@@ -197,9 +195,6 @@
     <Content Include="bin\roslyn\Microsoft.CSharp.Core.targets" />
     <Content Include="bin\roslyn\Microsoft.VisualBasic.Core.targets" />
     <Content Include="bin\roslyn\VBCSCompiler.exe.config" />
-    <Content Include="obj1\Debug\build.force" />
-    <Content Include="obj1\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
-    <Content Include="obj1\Debug\SnoDrifters.csprojResolveAssemblyReference.cache" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -218,6 +213,13 @@
     <Compile Include="classes\Gallery.cs" />
     <Compile Include="classes\Media.cs" />
     <Compile Include="classes\Sponsor.cs" />
+    <Compile Include="EventEditor.aspx.cs">
+      <DependentUpon>EventEditor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EventEditor.aspx.designer.cs">
+      <DependentUpon>EventEditor.aspx</DependentUpon>
+    </Compile>
     <Compile Include="galleryPhotos.aspx.cs">
       <DependentUpon>galleryPhotos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -225,26 +227,20 @@
     <Compile Include="galleryPhotos.aspx.designer.cs">
       <DependentUpon>galleryPhotos.aspx</DependentUpon>
     </Compile>
-    <Compile Include="obj1\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
-    <Compile Include="obj1\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
-    <Compile Include="obj1\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="ownerlog.aspx.cs">
       <DependentUpon>ownerlog.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ownerlog.aspx.designer.cs">
       <DependentUpon>ownerlog.aspx</DependentUpon>
     </Compile>
     <Compile Include="ownerlogin.aspx.cs">
       <DependentUpon>ownerlogin.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ownerlogin.aspx.designer.cs">
       <DependentUpon>ownerlogin.aspx</DependentUpon>
     </Compile>
     <Compile Include="OwnerPage.aspx.cs">
       <DependentUpon>OwnerPage.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="OwnerPage.aspx.designer.cs">
       <DependentUpon>OwnerPage.aspx</DependentUpon>
