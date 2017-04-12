@@ -18,23 +18,25 @@
 
 <div id="id01" class="modal">
   
-  <form class="modal-content animate" action="/OwnerPage.aspx">
+  <form class="modal-content animate" action="/OwnerPage.aspx" runat="server">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-      <img src="SnoDrifters/MJSNOWGUY_Logo.png" alt="Avatar" class="avatar"/>
+      <img src="img/SnoDrifters/MJSNOWGUY_Logo.png" alt="Avatar"/>
     </div>
 
     <div class="container">
       <label><b>Username</b></label>
         
         <asp:RequiredFieldValidator runat="server" ControlToValidate="uName"
-                                CssClass="text-danger" ErrorMessage="The user name field is required." />
-      <input type="text" placeholder="Enter Username" name="UserName" id="uName" required="required"/>
+                                ErrorMessage="The user name field is required." />
+        <asp:TextBox ID="uName" runat="server" />
+      <%--<input type="text" placeholder="Enter Username" name="UserName" id="uName" required="required"/>--%>
 
       <label><b>Password</b></label>
        <asp:RequiredFieldValidator runat="server" ControlToValidate="psw" 
-                                CssClass="text-danger" ErrorMessage="The password field is required." />
-      <input type="password" placeholder="Enter Password" name="Password" id="psw" required="required"/>
+                                ErrorMessage="The password field is required." />
+        <asp:TextBox ID="psw" TextMode="Password" runat="server" />
+      <%--<input type="password" placeholder="Enter Password" name="Password" id="psw" required="required"/>--%>
         
       <button type="submit" onclick="Logon_Click">Login </button>      
     </div>

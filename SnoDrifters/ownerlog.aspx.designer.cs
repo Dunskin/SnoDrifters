@@ -11,5 +11,23 @@ namespace SnoDrifters {
     
     
     public partial class ownerlog {
+        
+        /// <summary>
+        /// uName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox uName;
+        
+        /// <summary>
+        /// psw control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox psw;
     }
 }
